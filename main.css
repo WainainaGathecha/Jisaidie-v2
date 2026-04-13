@@ -1,1 +1,21 @@
+@import url('https:googleapis.com');
 @import "tailwindcss";
+
+@theme {
+    /* color palette */
+    --color-bg: #f5f0eb;
+    --color-surface: #ffffff;
+    --color-surface-muted: #ede8e3;
+    --color-border: #d9d0c7;
+    --color-text-primary: #1a1a1a;
+    --color-text-secondary: #6b6560;
+    --color-accent: #2d6a4f;
+    --color-accent-hover: #235540;
+    --color-gold: #c9a84c;
+    --color-gold-muted: #f5edd4;
+    
+    /* typography */
+    --font-display: "DM Serif Display", serif;
+    --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+}
