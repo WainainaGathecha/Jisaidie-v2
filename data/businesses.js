@@ -1,6 +1,16 @@
 // Category reference: food, automotive, health, hardware, retail, services
 // Note: images array should contain WebP format files from assets/images/businesses/
 
+const categories = [
+  {slug:"food", label:"Food & Drink", icon:"Utensils"},
+  {slug:"automotive", label:"Automotive", icon:"car"},
+  {slug:"health", label:"Health", icon:"heart-pulse"},
+  {slug:"hardware", label:"Hardware", icon:"hammer"},
+  {slug:"retail", label:"Retail", icon:"shopping-bag"},
+  {slug:"services", label:"Services", icon:"wrench"},
+  {slug:"education", label:"Education", icon:"notebook-pen"},
+];
+
 const businesses = [
   // FOOD - Restaurants, Cafes, Bakeries
   {

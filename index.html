@@ -9,7 +9,7 @@
 </head>
 <body class="bg-bg font-sans">
     <header class="sticky top-0 z-50 bg-bg border-b border-border">
-        <div class="px-5 md:px-8 lg:px-24 py-4 flex items-center gap-4 lg:gap-8">
+        <div class="container-pad py-4 flex items-center gap-4 lg:gap-8">
 
             <!-- logo -->
             <a href="index.html" class="shrink-0 font-bold text-3xl text-accent font-display leading-none">Jisaidie</a>
@@ -95,9 +95,26 @@
             </div>
         </div>
     </section>
+
+    <!-- Category Grid -->
+    <section class="container-pad py-10">
+
+        <!-- Section heading -->
+        <h2 class="uppercase font-semibold tracking-widest text-xs  text-text-primary mb-6 font-display">
+            Browse by category
+        </h2>
+
+        <!-- category card container -->
+        <div id="category-grid" class="gap-3 grid grid-cols-4 sm:grid-cols-7 ">
+            <!-- Categories rendered by script.js  -->
+            
+       </div>
+    </section>
     
     
+    <script src="./data/businesses.js"></script>
     <script src="./script.js"></script>
+    <script src="./pages/search.js"></script>
     <script>
         lucide.createIcons();
     </script>
