@@ -19,3 +19,18 @@
     --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
 
 }
+@utility container-pad {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    @media (768px) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    @media (1024px) {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
