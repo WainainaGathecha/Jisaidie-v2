@@ -32,3 +32,12 @@
         padding-right: 6rem;
     }
 }
+@utility section-heading {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: var(--color-text-primary);
+    font-family: var(--font-display);
+    margin-bottom: 1.5rem;
+}
