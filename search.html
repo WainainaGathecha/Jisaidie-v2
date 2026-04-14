@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jisaidie app</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
-<body>
+<body class="bg-bg font-sans">
+    <header class="sticky top-0 z-50 bg-bg border-b border-border">
+        <div class="container-pad py-4 flex items-center gap-4 lg:gap-8">
+
+            <!-- logo -->
+            <a href="index.html" class="shrink-0 font-bold text-3xl text-accent font-display leading-none">Jisaidie</a>
+
+            <!-- Search bar -->
+            <div class="hidden md:flex flex-1">
+                <label for="search-bar" class="sr-only">Search for businesses in Juja</label>
+                <input 
+                type="search" 
+                id="search-bar" 
+                name="search-bar" 
+                placeholder="Search for businesses in Juja..." 
+                class="w-full bg-surface border border-border rounded-full py-2 px-4 text-sm text-text-primary placeholder:text-text-secondary focus:outline-none focus:border-accent transition-colors duration-200">
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-6 lg:gap-8 shrink-0">
+            <a href="index.html" class="text-sm text-text-secondary font-display tracking-wide hover:text-text-primary transition-colors duration-200">Home</a>
+            <a href="#about" class="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200 font-display tracking-wide">About</a>
+            </nav>
+        
+            <!-- Hamburger Menu  -->
+            <button 
+            aria-label="open navigation menu" 
+            aria-expanded="false"
+            type="button" 
+            class="md:hidden flex flex-col gap-1.5 p-2 ml-auto -mr-2" 
+            id="hamburger">
+                <span class="block w-5 h-0.5 bg-text-primary rounded-full transition-all duration-300"></span>
+                <span class="block w-5 h-0.5 bg-text-primary rounded-full transition-all duration-300"></span>
+                <span class="block w-5 h-0.5 bg-text-primary rounded-full transition-all duration-300"></span>
+            </button>
+        </div>
+    </header>
     
 </body>
 </html>

@@ -371,3 +371,7 @@ This section is noted for reference only. Nothing here is in scope for v2.
 ---
 
 ---
+
+### Before deployment
+
+- Add real images for the listings
